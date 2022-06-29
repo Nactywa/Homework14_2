@@ -2,9 +2,15 @@
 //
 
 #include <iostream>
-
+#include <string>
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::string first = "145628";
+    std::cout << first << "\n";
+
+    std::cout << first.length() << "\n";
+
+    std::cout << 1 << "\n";
+    std::cout << 8 << "\n";
 }
 
