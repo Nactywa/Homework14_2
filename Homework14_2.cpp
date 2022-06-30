@@ -5,14 +5,16 @@
 #include <string>
 int main()
 {
-    std::string fear = "145628";
+    std::string fear = "1456285";
     std::cout << fear << "\n";
 
     std::cout << fear.length() << "\n";
 
     char first = fear[0];
     std::cout << first << "\n";
-    char last = fear[5];
+    
+    int length = fear.length();
+    char last = fear [length -1];
     std::cout << last << "\n";
 }
 
